@@ -192,10 +192,26 @@ border:0;
 .contact-form .right .form-control::placeholder{
 color: #888;
 font-size: 16px;
+}
+
+/*Random*/
+.Random{
+margin: 4em 0;
+position: relative;	
+left: 50PX;}
+.Random h1{
+color:#00d170;
+margin: 2em;
+}
+.result{
+background: yellowgreen;
+width: 85px;
+height: 30px;
+}
 
 
-/*
+
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 *{
 font-family: "Raleway";
-}*/
+}
