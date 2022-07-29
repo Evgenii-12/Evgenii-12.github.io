@@ -30,6 +30,9 @@
             <li class="nav-item">
                 <a class="nav-link" data-value="Contact" href="#">Контакти</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" data-value="Random2" href="#">Генератор</a>
+            </li>
         </ul>
     </div>
     </nav>
@@ -62,7 +65,7 @@
 <div class="container">
 <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-12">
-        <img align="center" src="https://gymnasium12.klasna.com/uploads/editor/31/14922/sitepage_21/images/kollektiv.jpg" class="img-fluid">
+        <img align="center" src="images/kollektiv.jpg" class="img-fluid">
         <span class="text-justify">Наша команда</span>
     </div>
     <div class="col-lg-8 col-md-8 col-sm-12 desc">
@@ -237,6 +240,27 @@
 </div>
 </form>
 </div>
+</div>
+
+
+<div class="Random" id="Random2">
+    <h1 class="text-center">Генератор</h1>
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-1 col-md-1 col-sm-12 right">
+        MIN :<br>
+        MAX :<br>
+        </div>
+        <div class="col-lg-11 col-md-11 col-sm-12 right">
+        <form name="Random">
+         <input type="number" placeholder="min-number 10" name="min" id="min"> <br>
+        <input type="number" placeholder="max-number 20" name="max" id="max"> <br>
+        <input type="button" name="Getrandom" onclick="check()" value="Генератор">
+        </form>       
+        Результат : <div class="result"></div>
+        </div>
+    </div>
+    </div>
 </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
